@@ -1,0 +1,75 @@
+body {
+  background-color: #fefdf7;
+  color: black;
+}
+
+main {
+  min-height: 75vh;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #f15330;
+}
+
+.active-link {
+  color: #f15330;
+}
+
+.menu-item {
+  background-color: #fefdf7;
+}
+
+.menu-item button {
+  background-color: #f15330;
+  color: #fefdf7;
+}
+
+.menu-item button:hover {
+  background-color: #e04626;
+  color: #fefdf7;
+}
+
+footer a {
+  color: #f15330;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* New styles for the orders list
+.order-list-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.order-list {
+  list-style-type: none;
+  padding: 0;
+  width: 80%;
+}
+
+.order-item {
+  background-color: #fefdf7;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 20px;
+  text-align: left;
+}
+
+.order-item h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.order-item p {
+  margin: 5px 0;
+  font-size: 16px;
+} */
