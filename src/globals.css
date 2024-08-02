@@ -19,6 +19,17 @@ main {
   color: #f15330;
 }
 
+footer a {
+  color: #f15330;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Home page */
+
 .menu-item {
   background-color: #fefdf7;
 }
@@ -33,43 +44,9 @@ main {
   color: #fefdf7;
 }
 
-footer a {
-  color: #f15330;
-  text-decoration: none;
-}
+/* Admin page */
 
-footer a:hover {
-  text-decoration: underline;
-}
-
-/* New styles for the orders list
-.order-list-container {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-.order-list {
-  list-style-type: none;
-  padding: 0;
-  width: 80%;
-}
-
-.order-item {
+.accordion-item, .accordion-button, .accordion-button:not(.collapsed){
   background-color: #fefdf7;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  margin: 10px 0;
-  padding: 20px;
-  text-align: left;
 }
 
-.order-item h3 {
-  margin: 0 0 10px;
-  font-size: 20px;
-}
-
-.order-item p {
-  margin: 5px 0;
-  font-size: 16px;
-} */
