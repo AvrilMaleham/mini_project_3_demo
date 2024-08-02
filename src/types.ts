@@ -7,3 +7,9 @@ export type Order = {
     drink: string;
     status: string;
   };
+
+  export type Pizza = {
+    name: string;
+    image: string;
+    price: string;
+  };
