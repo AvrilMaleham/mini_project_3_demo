@@ -10,6 +10,17 @@ Clone the app into the directory of your choice.
 
 Install the dependencies. 
 
+### `Set up GitHub as NextAuth authentication provider`
+
+Create a .env.local file in the root directory
+Follow the steps on: https://github.com/settings/developers 
+
+NEXTAUTH_SECRET=""
+GITHUB_ID=""
+GITHUB_SECRET=""
+
+Then you can log in to the admin page using: name: "Avril", password: "password"
+
 ### `npm run dev`
 
 Runs the app in the development mode.\
