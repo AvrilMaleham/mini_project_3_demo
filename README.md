@@ -12,12 +12,12 @@ Install the dependencies.
 
 ### `Set up GitHub as NextAuth authentication provider`
 
-Create a .env.local file in the root directory
-Follow the steps on: https://github.com/settings/developers 
+Create a .env.local file in the root directory\
+Follow the steps on: https://github.com/settings/developers\
 
-NEXTAUTH_SECRET=""
-GITHUB_ID=""
-GITHUB_SECRET=""
+NEXTAUTH_SECRET=""\
+GITHUB_ID=""\
+GITHUB_SECRET=""\
 
 Then you can log in to the admin page using: name: "Avril", password: "password"
 
